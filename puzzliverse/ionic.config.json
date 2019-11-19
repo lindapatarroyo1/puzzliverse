@@ -1,5 +1,7 @@
 {
   "name": "puzzliverse",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
