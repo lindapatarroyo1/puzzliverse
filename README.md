@@ -8,4 +8,3 @@ The Software to be developed will be called Puzzliverse, it will allow you to pl
 • Use the images of the week from www.eso.org to play.
 • Choose more images to play.
 • Show image information.
-hola mundooo
