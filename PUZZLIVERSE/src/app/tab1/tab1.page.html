@@ -1,15 +1,26 @@
 
-<ion-content class="c" padding text-center>
+<ion-content  padding text-center >
   <div class="dTable">
     <div class="dCell">
-      <h2 margin-bottom >PUZZLIVERSE</h2>
-      <p class="sub-title">-www.eso.org-</p>
+      
       <div class="container">
-        <button ion-button block (click)="goSpaceShooter($event, user)">Imagen de la semana</button>
-        <button ion-button block (click)="doLogout()">Jugar</button>
-        <button ion-button block (click)="goSpaceShooter($event, null)">Recort</button>
-        <button ion-button block (click)="doSignin()">Ajustes</button>
-        <button ion-button block (click)="topScore($event)">Como jugar</button>
+        <ion-button expand="block" size="large">
+            <img  slot="end" src="/assets/icon/play.png">
+          Imagen de la semana
+        </ion-button><br>
+        <ion-button  size="large" >
+          <img  slot="end" src="/assets/icon/play.png">
+          Jugar
+        </ion-button><br>
+        <ion-button size="large">
+          <img  slot="end" src="/assets/icon/trophy.png">
+          Record</ion-button><br>
+        <ion-button size="large">
+          <img  slot="end" src="/assets/icon/settings.png">
+          Ajustes</ion-button><br>
+        <ion-button size="large" >
+          <img  slot="end" src="/assets/icon/idea.png">
+          Como jugar</ion-button>
       </div>
     </div>
   </div>

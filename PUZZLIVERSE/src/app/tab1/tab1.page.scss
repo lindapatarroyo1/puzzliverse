@@ -1,19 +1,22 @@
-
-.dTable{
-  background-color:aqua;
+ion-content {
+  --background: url(/assets/fondo2.jpeg) no-repeat center/cover fixed;
 }
 
-.titulo{
-  text-align: center;
-  text-decoration-color: salmon;
+ion-button{
+--background:#36336b;
 }
-
-
   h2 {
-    font-size: 5rem;
-    line-height: 4.5rem;
+    font-size: 3.2rem;
+    line-height: 5rem;
+    color: white;
   }
+  
   .sub-title {
+    color: white;
     padding: 20px 0px;
   }
 
+  .container{
+    margin-top: 180px;
+
+  }

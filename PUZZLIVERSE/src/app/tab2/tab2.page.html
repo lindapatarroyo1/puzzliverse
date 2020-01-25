@@ -6,4 +6,30 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div class="menu">
+      <ion-button>
+          <img  slot="end" src="/assets/icon/menu.png">
+      </ion-button>
+      <ion-button>
+        <img  slot="end" src="/assets/icon/trophy.png">
+      </ion-button>
+      <ion-button>
+        <img  slot="end" src="/assets/icon/idea.png">
+      </ion-button>
+      <ion-button>
+        <img  slot="end" src="/assets/icon/settings.png">
+      </ion-button>
+  </div><br>
+  <div class="container"> 
+    <ion-item>
+      <ion-label>JCATEGORIAS</ion-label>
+        <ion-select value="categorias" okText="Select" cancelText="Cancel">
+            <ion-select-option value="brown">Brown</ion-select-option>
+            <ion-select-option value="blonde">Blonde</ion-select-option>
+            <ion-select-option value="black">Black</ion-select-option>
+            <ion-select-option value="red">Red</ion-select-option>
+          </ion-select>
+    </ion-item>
+  </div>
+</ion-content>
